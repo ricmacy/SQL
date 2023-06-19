@@ -1,0 +1,10 @@
+Data contained employment data for employees at a company.
+
+Find the longest time that an employee has been at the studio
+SELECT Name, MAX (Years_employed) FROM Employees;
+
+For each role, find the average number of years employed by employees in that role 
+SELECT Role, AVG(Years_employed) FROM Employees GROUP BY role;
+
+Find the total number of employee years worked in each building
+SELECT building, SUM(Years_employed) FROM Employees GROUP BY building;
