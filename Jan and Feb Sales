@@ -1,3 +1,5 @@
+Data contained information regarding product sales for several months. 
+
 How many orders were placed in January?
 SELECT COUNT (*)
 FROM BIT_DB.jansales 
